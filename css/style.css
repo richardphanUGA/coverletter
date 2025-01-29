@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color:  #BA0C2F;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #BA0C2F;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.splash {
+    background-color: #f0f8ff;
+    padding: 30px 10px;
+    text-align: center;
+    border-bottom: 3px solid #333;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.headshot {
+    border: 5px solid #333;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+}
+
+.address {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10 px;
+    text-align: center;
+}
+
+.tagline {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-family: 'Times New Roman', sans-serif;
+    color: #333;
+}
+
+.edu {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #252323;
+    font-size: medium;
+    padding-left: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.awards dl {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 10px; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .awards dt {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .awards dd {
+    font-style: italic;
+    color: #888;
+  }
+  
+    .skills {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+    .skills li {
+    margin-bottom: 0.8rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 200;
+    color: #333;
+  }
+  
+    .skills ul li::before {
+    content: "✔️"; /* Add a checkmark before each item */
+    margin-right: 10px;
+    color: #007BFF; /* Blue color for checkmark */
+  }
+  
+  /* Description List for Leadership Experience */
+  .Leadership dl {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 12px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .Leadership dt {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .Leadership dd {
+    font-style: italic;
+    font-size: 1rem;
+    color: #555;
+  }
+
+
+
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5722;
+    text-decoration: underline;
+}
+
+body {
+    font-size: 16px;
+
+}
+
+.proj section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: #252323;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.3s ease, box-shadow 0.3 ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.2rem;
+  }
+
+  .card h3 {
+    font-size: 1.00rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  .card ul {
+    list-style-type: square;
+    padding-left: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .card ul li {
+    margin-bottom: 0.8rem;
+  }
+
+
+
+.one-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px; /* Space between inputs */
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
